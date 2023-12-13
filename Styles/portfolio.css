@@ -91,7 +91,11 @@ nav a{
 
 
 /*main section styles*/
-
+main
+{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 /*about section styles*/
 
 .about
@@ -114,4 +118,13 @@ nav a{
     text-align: center;
     font-size: 18px;
 
+
+}
+.about-info-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info-container{
+    text-align: center;
 }
